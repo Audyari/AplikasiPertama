@@ -6,9 +6,15 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Scanner input = new Scanner(System.in);
+        //Scanner input = new Scanner(System.in);
 
-        System.out.println(input.nextLine());
+        //System.out.println(input.nextLine());
+
+        String data = "70";
+        System.out.println(data.length());
+
+
+
 
         }
 }
