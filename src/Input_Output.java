@@ -2,15 +2,13 @@ import java.util.Scanner;
 
 public class Input_Output {
     public static void main(String[] args) {
-       /* Scanner angka = new Scanner(System.in);
-        int data1 = angka.nextInt();
-        int data2 = angka.nextInt();
 
-        System.out.println(data1+data2);
-*/
-        int a = 257;
-        byte b = (byte)a;
+        int x = 10;
+        if (x > 0) {
+            System.out.println("Nilai x adalah positif");
 
-        System.out.println(b);
+        } else {
+            System.out.println("Nilai x adalah negatif atau nol");
+        }
     }
 }
